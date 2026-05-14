@@ -35,8 +35,13 @@ img {
 /* CSS Grid Styles */
 
 body {
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   min-height: 100%;
+   margin: 0 auto;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: repeat(4, 1fr);
 }
 
 img#sp_logo {
