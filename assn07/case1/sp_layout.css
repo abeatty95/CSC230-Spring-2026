@@ -49,11 +49,6 @@ section {
    grid-template-columns: repeat (4, 1fr);
 }
 
-section article {
-   float: left;
-   width: 25%;
-}
-
 footer {
    grid-column: 1 / 5;
 }
