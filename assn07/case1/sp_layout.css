@@ -70,24 +70,17 @@ nav.horizontal ul li {
 /* Section Styles */
 
 section {
-   grid-column: 1 / 5;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-column: span 1;
 }
 
-section div {
-   width: 100%;
-}
-
-section div img {
+section img {
    width: 50%;
    margin: 0 auto;
 }
 
-section div p {
+section p {
    width: 70%;
    margin: 0 auto;
-   text-align: center;
 }
 
 /* Customer Comment Styles */
