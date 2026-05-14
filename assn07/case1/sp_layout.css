@@ -66,6 +66,9 @@ nav.horizontal ul li {
    text-align: center;
 }
 
+footer {
+   grid-column: 1 / 5;
+}
 
 /* Section Styles */
 
