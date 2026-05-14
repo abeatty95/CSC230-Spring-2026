@@ -62,8 +62,8 @@ nav.horizontal {
 
 nav.horizontal ul {
    display: grid;
-   grid-template-columns: repeat(8, 1fr);
-   width: 100%;
+   grid-template-columns: repeat(4, 1fr);
+   width: 50%;
 }
 
 nav.horizontal ul li {
