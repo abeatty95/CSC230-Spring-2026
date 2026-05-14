@@ -42,13 +42,6 @@ img#logo {
    width: 100%;
 }
 
-section {
-   grid-column: 1 / 5;
-
-   display: grid;
-   grid-template-columns: repeat (4, 1fr);
-}
-
 footer {
    grid-column: 1 / 5;
 }
@@ -84,11 +77,20 @@ nav.horizontal ul li {
 
 /* Section Styles */
 
-section img {
-   width: 50%;
-   margin: 0 auto;
+section {
+   grid-column: 1 / 5;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
 }
 
+section article {
+   width: 100%;
+}
+
+section img {
+   width: 100%;
+   margin: 0;
+}
 
 section p {
    width: 70%;
