@@ -71,21 +71,20 @@ nav.horizontal ul li {
 
 section {
    grid-column: 1 / 5;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
 }
 
-section article {
-   display: block;
-   float: left;
-   width: 25%;
-}
-
-section article img {
-   display: block;
+section div {
    width: 100%;
+}
+
+section div img {
+   width: 50%;
    margin: 0 auto;
 }
 
-section article p {
+section div p {
    width: 70%;
    margin: 0 auto;
    text-align: center;
