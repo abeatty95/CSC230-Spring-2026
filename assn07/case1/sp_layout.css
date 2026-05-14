@@ -28,6 +28,9 @@ body {
    min-height: 100%;
 }
 
+img {
+   display: block;
+}
 
 /* CSS Grid Styles */
 
