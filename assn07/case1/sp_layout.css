@@ -42,14 +42,6 @@ img#logo {
    width: 100%;
 }
 
-footer {
-   grid-column: 1 / 5;
-}
-
-aside {
-   grid-column: span 2;
-}
-
 /* Horizontal Navigation List Styles */
 
 nav.vertical {
@@ -98,6 +90,10 @@ section p {
 }
 
 /* Customer Comment Styles */
+
+aside {
+   grid-column: span 2;
+}
 
 aside {
    width: 75%;
