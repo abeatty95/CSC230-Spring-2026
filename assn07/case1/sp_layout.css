@@ -79,5 +79,12 @@ section p {
 
 /* Customer Comment Styles */
 
+aside {
+   width: 75%;
+   padding-bottom: 30px;
+}
 
+aside:nth-last-of-type(odd) {
+   justify-self: end;
+}
 
