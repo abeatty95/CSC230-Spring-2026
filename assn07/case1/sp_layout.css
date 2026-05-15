@@ -42,8 +42,22 @@ img#logo {
    width: 100%;
 }
 
+nav.horizontal {
+   grid-column: span 4;
+}
+
+footer {
+   grid-column: span 4;
+}
+
+aside {
+   grid-column: span 2;
+}
 
 /* Horizontal Navigation List Styles */
+
+
+
 
 
 
