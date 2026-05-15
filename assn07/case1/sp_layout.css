@@ -62,6 +62,7 @@ nav.horizontal ul li {
    display: block;
    width: 12.5%;
    float: left;
+   text-align: center;
 }
 
 
