@@ -67,7 +67,10 @@ nav.horizontal ul li {
 
 /* Section Styles */
 
-
+section img {
+   width: 50%;
+   margin: 0 auto;
+}
 
 
 /* Customer Comment Styles */
