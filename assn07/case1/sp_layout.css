@@ -79,9 +79,8 @@ section p {
 
 /* Customer Comment Styles */
 
-
-
-
 aside:nth-of-type(odd) {
    justify-self: end;
 }
+
+
