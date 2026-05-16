@@ -1,6 +1,6 @@
 @charset "utf-8";
 @font-face {
-	font-family: playwriteGBS;
+	font-family: "playwriteGBS";
 	src: url('PlaywriteGBS-VariableFont_wght.ttf') format('truetype'),
 }
 
@@ -18,7 +18,7 @@ html {
 /* Body Styles */
 
 body p h1 {
-  font-family: "Playwrite GBS", cursive;
+  font-family: "PlaywriteGBS", cursive;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
