@@ -29,6 +29,9 @@ nav {
 
     width: 35%;
 
-    text-align: left;
-    list-style-type: decimal; 
+    text-align: left; 
+}
+
+ul {
+    list-style-type: decimal;
 }
