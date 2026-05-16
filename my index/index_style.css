@@ -9,6 +9,9 @@ html {
 
 /* Header Styles */
 
+header {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 
 /* Body Styles */
@@ -26,8 +29,9 @@ h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-header {
-    font-family: 'Courier New', Courier, monospace;
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
 }
 
 html, body {
