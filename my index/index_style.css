@@ -1,1 +1,15 @@
 @charset "utf-8";
+
+/* General Styles */
+
+html {
+    background-color: rgb(242, 234, 224);
+}
+
+
+
+/* Body Styles */
+
+body {
+    background-color: rgb(180, 211, 217);
+}
