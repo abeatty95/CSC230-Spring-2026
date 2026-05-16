@@ -18,3 +18,16 @@ img {
     align-content: flex-start;
     padding-left: 20px;
 }
+
+/* Navigation Layout */
+
+nav {
+    position: relative;
+
+    left: 300px;
+    top: -150px;
+
+    width: 35%;
+
+    text-align: center;
+}
