@@ -16,6 +16,19 @@ header {
 
 /* Body Styles */
 
+html, body {
+   height: 100%;
+   margin: 0;
+}
+
+body {
+    background-color: rgb(180, 211, 217);
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1152px;
+}
+
 @font-face {
    font-family: 'Playwrite';
    src: url('PlaywriteGBS-Regular.ttf') format('truetype');
@@ -49,18 +62,6 @@ p {
     font-weight: lighter;
 }
 
-html, body {
-   height: 100%;
-   margin: 0;
-}
-
-body {
-    background-color: rgb(180, 211, 217);
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1152px;
-}
 
 /* Navigation and Link Styles */
 
