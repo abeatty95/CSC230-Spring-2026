@@ -22,6 +22,7 @@ img {
 /* Navigation Layout */
 
 nav {
+    display:block;
     position: relative;
 
     left: 700px;
