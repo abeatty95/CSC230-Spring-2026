@@ -2,17 +2,9 @@
 
 /* Page layout */
 
-h1 {
+h1, img {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 20px;
-}
-
-img {
-    display: inline-block;
-    vertical-align: middle;
-    height: 220px;
-    width: auto;
 }
 
 
