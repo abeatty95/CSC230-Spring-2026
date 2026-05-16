@@ -34,4 +34,7 @@ nav {
 
 ul {
     list-style-type: decimal;
+    text-align: left;
+    text-decoration: none;
+    line-height: 3em;
 }
