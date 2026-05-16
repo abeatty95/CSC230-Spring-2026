@@ -1,12 +1,45 @@
 @charset "utf-8";
 
-/* Body Styles */
+/* Page layout */
+body {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+    margin: 30px auto;
+}
 
 
+/* Left side content */
+.leftContent {
+    width: 55%;
+}
 
 
+/* Align image vertically with h1 */
+.headerRow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 
+/* Image styling */
+.headerRow img {
+    height: 220px;
+    width: auto;
+}
 
 
-/* Navigation Styles */
+/* Left side text centered */
+.leftContent h3,
+.leftContent p {
+    text-align: center;
+}
+
+
+/* Navigation on right side */
+nav {
+    width: 35%;
+    text-align: center;
+}
