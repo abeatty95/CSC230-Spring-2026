@@ -14,4 +14,6 @@ img {
 
     height: 220px;
     width: auto;
+    align-content: left;
+    padding-left: 20px;
 }
