@@ -17,10 +17,18 @@ body {
 
 /* Navigation Styles */
 
+nav {
+    color: rgb(155, 142, 199);
+}
+
 nav a:link {
     color:  black;
 }
 
 nav a:hover {
     background-color: rgb(189, 166, 206);
+}
+
+nav a:visited {
+    color: rgb(155, 142, 199);
 }
