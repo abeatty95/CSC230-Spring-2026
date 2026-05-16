@@ -13,7 +13,7 @@ html {
 
 /* Body Styles */
 
-body p {
+body p h1{
   font-family: "Playwrite GB S", cursive;
   font-optical-sizing: auto;
   font-weight: 100%;
