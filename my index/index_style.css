@@ -12,13 +12,13 @@ html {
 
 body {
     background-color: rgb(180, 211, 217);
-    color: rgb(155, 142, 199);
+    color: black;
 }
 
 /* Navigation Styles */
 
 nav a:link {
-    color:  rgb(155, 142, 199);
+    color:  rgb(111, 82, 209);
 }
 
 nav a:hover {
@@ -26,5 +26,5 @@ nav a:hover {
 }
 
 nav a:visited {
-    color: rgb(155, 142, 199);
+    color: rgb(111, 82, 209);
 }
