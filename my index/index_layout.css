@@ -23,9 +23,7 @@ img {
 
 nav {
     display:block;
-    position: relative;
-    padding-right -30px;
- 
+    position: relative; 
 
     left: 700px;
     top: -115px;
