@@ -53,6 +53,10 @@ body {
 
 /* Navigation Styles */
 
+nav {
+   font-family: 'Playwrite', cursive;
+}
+
 nav a:link {
     color:  rgb(111, 82, 209);
 }
