@@ -28,6 +28,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1152px;
+    align-content: center;
 }
 
 html, body {
