@@ -7,8 +7,18 @@ html {
 }
 
 
+/* Header Styles */
+
+
 
 /* Body Styles */
+
+body p {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body {
     background-color: rgb(180, 211, 217);
