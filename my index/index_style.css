@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /* General Styles */
 
 html {
@@ -13,10 +14,10 @@ html {
 
 /* Body Styles */
 
-body p h1{
+body p h1.playwrite-gb-s-<uniquifier> {
   font-family: "Playwrite GB S", cursive;
   font-optical-sizing: auto;
-  font-weight: 100%;
+  font-weight: <weight>;
   font-style: normal;
 }
 
