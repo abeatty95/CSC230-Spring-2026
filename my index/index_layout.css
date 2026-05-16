@@ -3,11 +3,12 @@
 /* Page layout */
 
 h1 {
-    display: block;
+    display: inline-block;
 }
 
 img {
     display: inline-block;
+
 }
 
 
