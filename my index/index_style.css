@@ -1,8 +1,4 @@
 @charset "utf-8";
-@font-face {
-	font-family: "playwriteGB S" cursive;
-	src: url('PlaywriteGBS-Regular.ttf') format('truetype'),
-}
 
 /* General Styles */
 
@@ -17,11 +13,13 @@ html {
 
 /* Body Styles */
 
-body p h1 {
-  font-family: "PlaywriteGB S", cursive;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
+@font-face {
+   font-family: 'Playwrite';
+   src: url('PlaywriteGBS-Regular.ttf') format('truetype');
+}
+
+h1 {
+   font-family: 'Playwrite', cursive;
 }
 
 body {
