@@ -30,4 +30,5 @@ nav {
     width: 35%;
 
     text-align: left;
+    list-style-type: decimal; 
 }
