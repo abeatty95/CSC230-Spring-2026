@@ -4,10 +4,12 @@
 
 h1 {
     display: inline-block;
+    vertical-align: top;
 }
 
 img {
     display: inline-block;
+    vertical-align:top
 
 }
 
