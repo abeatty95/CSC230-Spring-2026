@@ -2,9 +2,10 @@
 
 /* Page layout */
 
-h1, img {
-    display: inline-block;
-    vertical-align: middle;
+.headerRow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 
