@@ -25,9 +25,15 @@ h1 {
    font-family: 'Playwrite', cursive;
    background-color: rgb(189, 166, 206);
    color: rgb(111, 82, 209);
+
    text-align: right;
    font-size: 4em;
-   margin-right: 0.5in;
+
+   margin: 0;
+   padding: 20px;
+
+   width: 100%;
+   box-sizing: border-box;
 }
 
 h2 {
