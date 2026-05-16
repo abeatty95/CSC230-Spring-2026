@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
-	font-family: "playwriteGB S";
-	src: url('PlaywriteGBS-VariableFont_wght.ttf') format('truetype'),
+	font-family: "playwriteGB S" cursive;
+	src: url('PlaywriteGBS-Regular.ttf') format('truetype'),
 }
 
 /* General Styles */
