@@ -22,7 +22,7 @@ header {
 
 
 body {
-    background-color: rgba(180, 211, 217, 0.6);
+    background-color: rgb(180, 211, 217);
     color: black;
     margin-left: auto;
     margin-right: auto;
@@ -58,7 +58,7 @@ h2 {
 
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
     padding-left: 150px;
     padding-top: 7px;
 }
@@ -76,6 +76,12 @@ p {
 nav {
    font-family: 'Playwrite', cursive;
    font-size: small;
+}
+
+nav a {
+    background: url("index_links.png") center/cover no-repeat;
+
+    padding: 8px 15px;
 }
 
 ul {
