@@ -42,7 +42,7 @@ nav ul {
 
 nav ul li.assignmentTile {
     width: 250px;
-    height: 68px;
+    height: 80px;
 
     background-image: url("index_links.png");
     background-size: cover;
@@ -62,10 +62,11 @@ nav ul li.assignmentTile a {
 
     font-size: 0.9em;
 
-    width: 90%;
+    width: 80%;
+
+    display: block;
 
     text-align: center;
 
-    overflow-wrap: break-word;
     line-height: 1.2em;
 }
