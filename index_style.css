@@ -28,6 +28,7 @@ body {
     margin-right: auto;
     width: 1152px;
     min-height: 120vh;
+    padding-bottom: 100px;
 }
 
 @font-face {
