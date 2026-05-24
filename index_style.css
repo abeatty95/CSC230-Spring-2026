@@ -78,26 +78,37 @@ nav {
    font-size: small;
 }
 
+.navBox {
+    background-image: url("index_links.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 500px;
+    min-height: 400px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 20px;
+}
+
 nav a {
-    background: url("index_links.png") center/cover no-repeat;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
 
-    padding: 8px 15px;
-}
-
-ul {
-    color: black;
-}
-
-nav a:link {
-    color:  rgb(111, 82, 209);
-}
-
-nav a:hover {
-    background-color: rgb(180, 211, 217);
-}
-
-nav a:visited {
-    color: rgb(111, 82, 209);
+    background-color: rgba(0,0,0,0.25);
+    padding: 10px 15px;
+    border-radius: 10px;
 }
 
 
