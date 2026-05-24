@@ -78,34 +78,26 @@ nav {
    font-size: small;
 }
 
-.assignmentLink {
-    position: relative;
-
-    display: block;
+.assignmentTile {
     width: 350px;
     height: 90px;
 
-    text-decoration: none;
-    color: white;
-}
-
-.assignmentLink img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
+    background-image: url("clouds.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     border-radius: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.assignmentLink span {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
+.assignmentTile a {
+    color: white;
+    text-decoration: none;
     font-size: 1.3em;
 }
 
