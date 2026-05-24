@@ -55,7 +55,7 @@ h1 {
 h2 {
     font-family: 'Playwrite', cursive;    
     text-align: center;
-    text-size-adjust: 2em;
+    text-size: 2em;
     padding-top: 7px;
 }
 
