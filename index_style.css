@@ -3,7 +3,8 @@
 /* General Styles */
 
 html {
-    background-image: url(index_background.jpg) ;
+    background-image: url(index_background.jpg);
+    height: 100%;
 }
 
 
@@ -16,10 +17,6 @@ header {
 
 /* Body Styles */
 
-html, body {
-   height: 100%;
-   margin: 0;
-}
 
 body {
     background-color: rgb(180, 211, 217);
@@ -27,6 +24,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1152px;
+    height: 100vh;
 }
 
 @font-face {
