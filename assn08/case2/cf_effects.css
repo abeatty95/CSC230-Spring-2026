@@ -39,5 +39,9 @@ section aside {
    border-radius: 30px;
 }
 
+section aside h1 {
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+}
 
 /* Cube Styles */
