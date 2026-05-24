@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav ul li.assignmentTile {
-    width: 100px;
+    width: 250px;
     height: 68px;
 
     background-image: url("index_links.png");
