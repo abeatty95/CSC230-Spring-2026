@@ -16,7 +16,7 @@
 /* HTML Styles */
 
 html {
-   background-image: url("cf_back1.png") center center / cover fixed no-repeat;
+   background: url("cf_back1.png") center center / cover fixed no-repeat;
 }
 
 
@@ -44,7 +44,10 @@ section aside h1 {
    border-top-right-radius: 30px;
 }
 
-section#left,
+section#left {
+   perspective: 450px;
+}
+
 section#right {
    perspective: 450px;
 }
