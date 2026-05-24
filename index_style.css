@@ -85,6 +85,7 @@ nav ul {
 
 nav li {
     margin-bottom: 20px;
+    background: url("index_links.png");
 }
 
 nav a {
@@ -96,13 +97,9 @@ nav a {
 
     text-align: center;
 
-    background: url("index_links.png") center/cover no-repeat;
-
     color: black;
     text-decoration: none;
     font-size: 1.3em;
-
-    border-radius: 20px;
 }
 
 
