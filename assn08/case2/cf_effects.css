@@ -52,7 +52,7 @@ section#right {
    perspective: 450px;
 }
 
-secion#left aside {
+section#left aside {
    transform: rotateY(30deg);
 }
 
