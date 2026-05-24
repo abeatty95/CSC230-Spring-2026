@@ -59,7 +59,13 @@ nav ul li.assignmentTile {
 nav ul li.assignmentTile a {
     color: black;
     text-decoration: none;
-    font-size: 1em;
+
+    font-size: 0.9em;
+
+    width: 90%;
+
+    text-align: center;
+
     overflow-wrap: break-word;
     line-height: 1.2em;
 }
