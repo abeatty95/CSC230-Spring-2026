@@ -78,27 +78,32 @@ nav {
    font-size: small;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .assignmentTile {
     width: 350px;
     height: 90px;
+    margin-bottom: 15px;
 
-    background-image: url("index_links.png");
+    background-image: url("index_background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    border-radius: 20px;
-    margin-bottom: 20px;
-
     display: flex;
     align-items: center;
     justify-content: center;
+
+    border-radius: 20px;
 }
 
 .assignmentTile a {
     color: white;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 
