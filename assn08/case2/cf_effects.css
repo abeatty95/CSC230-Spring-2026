@@ -44,4 +44,9 @@ section aside h1 {
    border-top-right-radius: 30px;
 }
 
+section#left,
+section#right {
+   perspective: 450px;
+}
+
 /* Cube Styles */
