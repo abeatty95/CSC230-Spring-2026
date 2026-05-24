@@ -37,7 +37,7 @@ ul {
     list-style-type: decimal;
     text-align: center;
     text-decoration: none;
-    line-height: 2em;
+    line-height: 1.75em;
 }
 nav ul {
     list-style-type: none;
@@ -45,9 +45,9 @@ nav ul {
 }
 
 nav ul li.assignmentTile {
-    width: 200px;
-    height: 65px;
-    margin-bottom: 15px;
+    width: 250px;
+    height: 60px;
+    margin-bottom: 10px;
 
     background-image: url("index_links.png");
     background-size: cover;
@@ -58,7 +58,7 @@ nav ul li.assignmentTile {
     align-items: center;
     justify-content: center;
 
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 nav ul li.assignmentTile a {
