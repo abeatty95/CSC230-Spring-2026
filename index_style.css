@@ -79,22 +79,26 @@ nav {
 }
 
 nav a {
-    display: block;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 350px;
+    height: 80px;
+
+    margin-bottom: 20px;
 
     background-image: url("index_links.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    padding: 15px;
-    margin-bottom: 15px;
-
     color: black;
     text-decoration: none;
+    font-size: 1.3em;
 
-    border-radius: 15px;
-
-    width: 80%;
+    border-radius: 20px;
 }
 
 
