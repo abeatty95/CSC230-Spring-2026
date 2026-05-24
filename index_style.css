@@ -74,9 +74,10 @@ p {
 .infoBox {
     width: 500px;
     margin: 30px auto;
-    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
 
-    background-image: url("index_h3img.jpg")
+    background-image: url("index_h3img.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
