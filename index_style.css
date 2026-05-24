@@ -72,13 +72,14 @@ p {
 }
 
 .infoBox {
-    width: 700px;
+    width: 600px;
+    min-height: 250px;
+
     margin: 30px auto;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    padding: 40px;
 
     background-image: url("index_infobox.png");
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 
