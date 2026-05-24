@@ -78,30 +78,6 @@ nav {
    font-size: small;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    margin-bottom: 20px;
-    background: url("index_links.png");
-}
-
-nav a {
-    display: block;
-
-    width: 350px;
-    height: 90px;
-    line-height: 90px;
-
-    text-align: center;
-
-    color: black;
-    text-decoration: none;
-    font-size: 1.3em;
-}
-
 
 
 
