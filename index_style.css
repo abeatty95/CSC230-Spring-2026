@@ -53,6 +53,7 @@ h1 {
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    text-size-adjust: 2em;
     padding-top: 7px;
 }
 
@@ -68,6 +69,25 @@ p {
     font-weight: lighter;
 
     padding-left: 160px;
+}
+
+.infoBox {
+    width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-image: url("index_h3img.jpg")
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 20px;
+    text-align: center;
+}
+
+.infoBox h3,
+.infoBox p {
+    padding-left: 0;
 }
 
 

@@ -21,33 +21,28 @@ img {
 
 /* Navigation Layout */
 
+/* Navigation Layout */
+
 nav {
-    display:block;
-    position: relative; 
-
-    left: 700px;
-    top: -115px;
-
-    width: 35%;
-
-    text-align: center; 
-}
-
-ul {
-    list-style-type: decimal;
+    width: 700px;
+    margin: 30px auto;
     text-align: center;
-    text-decoration: none;
-    line-height: 1.75em;
 }
+
 nav ul {
     list-style-type: none;
-    padding-left: 75px;
+    padding-left: 0;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 15px;
+    justify-content: center;
 }
 
 nav ul li.assignmentTile {
     width: 250px;
     height: 60px;
-    margin-bottom: 10px;
 
     background-image: url("index_links.png");
     background-size: cover;
