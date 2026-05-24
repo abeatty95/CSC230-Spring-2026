@@ -66,3 +66,9 @@ div#cube {
    height: 400px;
    perspective: 450px;
 }
+
+div.cube_face {
+   position: absolute;
+   width: 400px;
+   height: 400px;
+}
