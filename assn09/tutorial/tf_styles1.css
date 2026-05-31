@@ -199,3 +199,21 @@ ul.submenu {
 @media only screen and (mid-width: 769px) {
    
 }
+
+ul.submenu {
+   background: transparent;
+   box-shadow: none;
+   display: block;
+   position: relative;
+   width: 100%;
+}
+
+nav.horizontal::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+
+nav.horizontal a.submenuTitle {
+   display: none;
+}
