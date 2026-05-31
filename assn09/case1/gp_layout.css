@@ -43,7 +43,17 @@ article {
 	Mobile Devices: 0 - 480 pixels
    ============================================
 */
-
+ @media screen and (max-width: 480px) {
+   img.panel {
+      width: 100%;
+   }
+   nav.horizontal {
+      order: 99;
+   }
+   body > footer {
+      order: 100;
+   }
+ }
 
 
 
