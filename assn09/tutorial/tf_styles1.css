@@ -160,9 +160,6 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
    ===============================
 */
 @media only screen and (max-width: 480px) {
-
-}
-
 nav.horizontal a {
    font-size: 1.5em;
    line-height: 2.2em;
@@ -171,15 +168,14 @@ nav.horizontal a {
 aside {
    display: none;
 }
+}
+
 
 /* ================================
    Tablet Styles: 481px and greater
    =================================
 */
 @media only screen and (min-width: 481px) {
-
-}
-
 ul.mainmenu > li {
    float: left;
    position: relative;
@@ -192,15 +188,15 @@ ul.submenu {
    width: 200%;
 }
 
+}
+
+
 /* =================================
    Desktop Styles: 769px and greater
    =================================
 */
 @media only screen and (mid-width: 769px) {
-   
-}
-
-ul.submenu {
+ ul.submenu {
    background: transparent;
    box-shadow: none;
    display: block;
@@ -227,4 +223,6 @@ article {
 aside {
    float: left;
    width: 40%;
+}
+   
 }
