@@ -104,7 +104,7 @@ nav li {
     padding: 15px 0px;
 }
 
-/* Table Styles */
+/* Section Styles */
 
 section {
     background-color: #f3efe2;
@@ -114,6 +114,7 @@ section {
     box-sizing: border-box;
 }
 
+/* Table Styles */
 
 .weekRow th {
     background-color: #b7a8c9;
