@@ -26,6 +26,15 @@ header {
     overflow: auto;
 }
 
+header img {
+    float: right;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 15px;
+}
+
 header h1 {
     font-size: 36pt;
     margin: 35px 0px 0px 0px;
@@ -39,6 +48,8 @@ header h3 {
     padding: 0px 0px 15px 15px;
     background-color: #d8e4f0;
 }
+
+/* General Styles */
 
 h1 {
     font-family: Arial, sans-serif;
