@@ -116,6 +116,18 @@ section {
 
 /* Table Styles */
 
+table {
+    border: none;
+    width: 90%;
+    margin-left: 30px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 2px 5px;
+}
+
 .weekRow th {
     background-color: #b7a8c9;
     font-weight: bold;
